@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.nav-content {
+  float: right;
+  margin: 16px 30px;
+}
+
+ul {
+  background-color: black;
+  height: 60px;
+}
+.logo{
+  float: left;
+  color: white;
+  margin: 6px -8px;
+  font-size: 41px;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+}
+ul li a {
+  color: white;
+  font-size: 22px;
+  padding: 15px;
+  text-decoration: none;
+}
+ul li a:hover {
+  border-bottom: 2px solid white;
+}
+
+/* BANNER */
+.banner {
+  background-image: url("banner2.jpg");
+  width: 100%;
+  background-size: cover;
+}
+.banner-content {
+  padding: 15% 0;
+  color: white;
+}
+.banner-content h1 {
+  text-align: center;
+}
+.banner-content p {
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  padding: 80px 30px;
+  flex-flow: row wrap;
+  text-align: center;
+  overflow: hidden;
+}
+.main-primary-1 {
+  border: 1px solid purple;
+  border-radius: 15px;
+  margin-right: 40px;
+  width: 400px;
+  height: 150px;
+  overflow: hidden;
+}
+.main-primary-1:hover{
+  top: -5px;
+  box-shadow: 10px 15px 30px 10px rgba(116, 116, 114, 0.5);
+}
+.main-primary-2:hover{
+  top: -5px;
+  box-shadow: 10px 15px 30px 10px rgba(116, 116, 114, 0.5);
+}
+.main-primary-3:hover{
+  top: -5px;
+  box-shadow: 10px 15px 30px 10px rgba(116, 116, 114, 0.5);
+}
+.main-primary-2 {
+  border: 1px solid purple;
+  border-radius: 15px;
+  margin-right: 40px;
+  width: 400px;
+  height: 150px;
+  overflow: hidden;
+}
+.main-primary-3 {
+  border: 1px solid purple;
+  border-radius: 15px;
+  width: 400px;
+  height: 150px;
+  overflow: hidden;
+}
+.main h2 {
+  padding: 8px;
+  margin-bottom: 12px;
+  background-color: slateblue;
+}
+.final {
+  background-image: url("final.jpg");
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+}
+.final-content {
+  padding: 20px;
+}
+.final-content h1 {
+  font-size: 40px;
+  margin-top: 35px;
+}
+.final-content input {
+  height: 50px;
+  width: 600px;
+  margin: 40px;
+  border-radius: 10px;
+  border: 1px grey;
+  font-size: 15px;
+  padding-left: 10px;
+}
+.final-content textarea {
+  margin: 40px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 1px grey;
+  padding: 15px;
+}
+button {
+  background-color: #ff3d03;
+  border-radius: 20px;
+  padding: 20px 30px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
